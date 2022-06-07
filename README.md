@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi, let me know if you need any help 🤝
 
 <!--
 **sinabehmanesh/sinabehmanesh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
