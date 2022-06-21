@@ -1,5 +1,6 @@
-### Hi, let me know if you need any help 🤝
-
+### Sina behmanesh
+DevOps guy, server mechanic and pipline builder, Veteran video gamer 🎮
+if you need any help let me know 💬
 <!--
 **sinabehmanesh/sinabehmanesh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
