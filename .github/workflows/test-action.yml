@@ -1,0 +1,18 @@
+name: test cicd
+on: [push]
+jobs:
+  clone-code:
+    runs-on: test
+    steps:
+      - run: echo "this one is the big one ${{ github.event_name }}"
+      - run: echo "first action trigered on ${{ runner.os }} and cloning from ${{ github.ref }}"
+      - name: code cloner hahaha
+        uses: action/checkout@v3
+      - run: echo "The workflow is now ready to test your code on the runner."
+
+      - name: where am i and who am i
+        run: |
+          pwd
+          ls ${{ github.workspace }}
+      - run: echo "we are on ${{ job.status }} status"
+      
