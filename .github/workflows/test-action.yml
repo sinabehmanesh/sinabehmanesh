@@ -2,7 +2,7 @@ name: test cicd
 on: [push]
 jobs:
   clone-code:
-    runs-on: test
+    runs-on: self-hosted
     steps:
       - run: echo "this one is the big one ${{ github.event_name }}"
       - run: echo "first action trigered on ${{ runner.os }} and cloning from ${{ github.ref }}"
