@@ -5,4 +5,4 @@ if you need any help let me know 💬
 Working on some open source projects and building my own.
 learning machine never stops.
 
-i'm looking to collaborate on server side projects that helps DevOps, iny way i am here to help :D
+i'm looking to collaborate on server side projects that helps DevOps, any way i am here to help :D
