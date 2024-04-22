@@ -1,3 +1,3 @@
 Sina Behmanesh, The Platform engineer.
 
-`things work, connect, and serve!`
+`I always need a break.`
