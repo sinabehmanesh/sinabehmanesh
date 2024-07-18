@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+Sina Behmanesh, The Server Developer.
+===
 
-You can use the [editor on GitHub](https://github.com/sinabehmanesh/sinabehmanesh/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbThpYWM2NDh0aGloeHg5aDlpNjQyYXJ1c3l5ZDNwNGsweHpjbDdlaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JIX9t2j0ZTN9S/giphy.gif" width="250">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+> Rapid deployment is a thing
 
-```markdown
-Syntax highlighted code block
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1Il659hPlscavxpq7QVPgU?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sinabehmanesh/sinabehmanesh/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+>>>>>>> dev
