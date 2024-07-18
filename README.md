@@ -5,4 +5,4 @@ Sina Behmanesh, The Server Mechanic.
 
 > Rapid deployment is a thing
 
-> dev
+>>>>>>> dev
