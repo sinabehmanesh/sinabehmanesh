@@ -1,6 +1,6 @@
 Sina Behmanesh, The Server Mechanic.
 
 
-![alt text]([https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDFkMWd0Y3lheWE5MTA4NGdkaTdmMnprNXJodjg0Z2FnaWRkc3U5diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ASvQ3A2Q7blzq/giphy.gif](https://tenor.com/bK8Ib.gif))
+![alt text]([https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbThpYWM2NDh0aGloeHg5aDlpNjQyYXJ1c3l5ZDNwNGsweHpjbDdlaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JIX9t2j0ZTN9S/giphy.gif])
 
 `I just woke up.`
