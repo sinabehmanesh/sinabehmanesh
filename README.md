@@ -12,4 +12,4 @@ Sina Behmanesh, The Server Developer.
 
 > Rapid deployment is a thing
 > 
->>>>>>> dev
+>>>> dev
