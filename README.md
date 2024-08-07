@@ -8,7 +8,6 @@ Sina Behmanesh, The Server Developer.
 
 
 <br>
-<br>
 
 > Rapid deployment is a thing
 > 
