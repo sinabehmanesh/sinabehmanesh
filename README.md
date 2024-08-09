@@ -6,7 +6,8 @@ Sina Behmanesh, The Server Developer.
 
 **Deploying code with precision, one Push at a time.**
 
-
+<br>
+I check my emails, I promise.
 <br>
 
 > Rapid deployment is a thing
