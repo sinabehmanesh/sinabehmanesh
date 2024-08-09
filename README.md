@@ -10,7 +10,7 @@ Sina Behmanesh, The Server Developer.
 I check my emails, I promise.
 
 <br />
-<br />
+<br>
+
 > Rapid deployment is a thing
-> 
 >>>> dev
