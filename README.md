@@ -5,7 +5,7 @@ Sina Behmanesh, The Server Developer.
 
 
 <br />
-I check my emails, I promise.
+Email me or just find me on X.
 
 <br />
 <br>
