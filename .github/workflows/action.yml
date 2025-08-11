@@ -6,8 +6,7 @@ jobs:
     steps:
       - run: echo "this one is the big one ${{ github.event_name }}"
       - run: echo "first action trigered on ${{ runner.os }} and cloning from ${{ github.ref }}"
-      - name: code clone
-        uses: action/checkout@v4
+      - uses: actions/checkout@v4
       - run: echo "The workflow is now ready to test your code on the runner."
 
       - name: where am i and who am i
