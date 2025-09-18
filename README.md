@@ -1,6 +1,5 @@
 Sina Behmanesh.
 ===
-I refuse to "use" proprietary software.
 <br />
 <br />
 
