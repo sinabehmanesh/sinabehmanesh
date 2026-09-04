@@ -1,49 +1,97 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-theme="dark">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About – Sina Behmanesh</title>
-  <style>
-    body {
-      max-width: 720px;
-      margin: 0 auto;
-      font-family: 'Georgia', 'Times New Roman', serif;
-      background: #111;
-      color: #eee;
-      padding: 2rem;
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="About Sina Behmanesh and his interests in software, game development, storytelling, and world-building.">
+  <title>About — Sina Behmanesh</title>
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    try {
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme === 'light' || savedTheme === 'dark') {
+        document.documentElement.dataset.theme = savedTheme;
+      }
+    } catch (_) {
+      // Keep the classic dark theme when storage is unavailable.
     }
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-    }
-    p {
-      line-height: 1.6;
-    }
-    a {
-      color: #66aaff;
-      text-decoration: none;
-    }
-    footer {
-      margin-top: 3rem;
-      font-size: 0.8rem;
-      color: #aaa;
-      text-align: center;
-    }
-  </style>
+  </script>
 </head>
 <body>
-  <div style="text-align: center; font-size: 0.9rem; margin-bottom: 2rem;">
-    <a href="index.html">← Back to Home</a>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <div class="page-shell page-shell--narrow">
+    <header class="site-header">
+      <div>
+        <a class="site-title" href="index.html">Sina Behmanesh</a>
+        <p class="site-subtitle">Software, games, and things worth keeping on the web.</p>
+      </div>
+
+      <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="true">
+        [ light mode ]
+      </button>
+    </header>
+
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <span aria-hidden="true">/</span>
+      <a aria-current="page" href="about.html">About</a>
+      <span aria-hidden="true">/</span>
+      <a href="https://github.com/sinabehmanesh" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <span aria-hidden="true">/</span>
+      <a href="https://www.linkedin.com/in/sinabehmanesh" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <span aria-hidden="true">/</span>
+      <a href="https://x.com/cbehmanesh" target="_blank" rel="noopener noreferrer">X</a>
+      <span aria-hidden="true">/</span>
+      <a href="mailto:sinabehmanesh.work@gmail.com">Email</a>
+    </nav>
+
+    <main id="main-content" class="prose-page">
+      <h1>About Me</h1>
+
+      <p>
+        I am a software engineer with experience in DevOps and game development.
+        I like understanding how systems work, building useful software, and learning
+        the tools needed to make things myself.
+      </p>
+
+      <p>
+        I am also working on a game in Unreal Engine 5 that explores philosophical
+        themes. Storytelling and world-building are a large part of why I want to
+        make games.
+      </p>
+
+      <h2>Elsewhere</h2>
+
+      <dl class="contact-list">
+        <div>
+          <dt>Code</dt>
+          <dd><a href="https://github.com/sinabehmanesh" target="_blank" rel="noopener noreferrer">github.com/sinabehmanesh</a></dd>
+        </div>
+        <div>
+          <dt>Work</dt>
+          <dd><a href="https://www.linkedin.com/in/sinabehmanesh" target="_blank" rel="noopener noreferrer">LinkedIn</a></dd>
+        </div>
+        <div>
+          <dt>Short posts</dt>
+          <dd><a href="https://x.com/cbehmanesh" target="_blank" rel="noopener noreferrer">@cbehmanesh</a></dd>
+        </div>
+        <div>
+          <dt>Email</dt>
+          <dd><a href="mailto:sinabehmanesh.work@gmail.com">sinabehmanesh.work@gmail.com</a></dd>
+        </div>
+      </dl>
+
+      <p class="back-link"><a href="index.html">&larr; Back to the journal</a></p>
+    </main>
+
+    <footer class="site-footer">
+      <span>&copy; <span data-current-year>2026</span> Sina Behmanesh</span>
+      <span aria-hidden="true">&middot;</span>
+      <span>Hosted on <a href="https://pages.github.com" target="_blank" rel="noopener noreferrer">GitHub Pages</a></span>
+    </footer>
   </div>
-  <h1>About Me</h1>
-  <p>I’m a software engineer with experience in DevOps and game development. Currently, I’m working on a game using Unreal Engine 5 that explores some philosophical themes. I enjoy storytelling and world-building. 
-    Outside of my work, I’m always looking for opportunities to learn and grow, whether that’s through picking up new skills or understanding different perspectives.</p>
 
-  <p>You can find me on <a href="https://github.com/sinabehmanesh" target="_blank">GitHub</a>, <a href="https://www.linkedin.com/in/sinabehmanesh" target="_blank">LinkedIn</a>, and <a href="https://x.com/cbehmanesh" target="_blank">X</a>. Or drop an email at <a href="mailto:sinabehmanesh.work@gmail.com">sinabehmanesh.work@gmail.com</a>.</p>
-
-  <footer>
-    &copy; 2025 Sina Behmanesh
-  </footer>
+  <script src="theme.js"></script>
 </body>
 </html>
