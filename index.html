@@ -1,144 +1,134 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-theme="dark">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sina Behmanesh's personal website about software, game development, and interesting things from the web.">
   <title>Sina Behmanesh</title>
-  <style>
-    :root {
-      color-scheme: dark;
-    }
-    body {
-      max-width: 1280px; /* Consider using max-width in rem/em for better responsiveness */
-      margin: 0 auto;
-      font-family: serif;
-      background: #fff;
-      color: #000;
-      padding: 2rem;
-      display: flex;
-      flex-direction: row;
-      gap: 2rem;
-    }
-    body.dark {
-      background: #111;
-      color: #eee;
-    }
-    body.dark aside {
-      background: #1a1a1a;
-      border-left: 1px solid #333;
-    }
-    body.dark .content-link .note {
-      color: #aaa;
-    }
-    h1 {
-      font-size: 2rem;
-      text-align: center;
-      margin-bottom: 1rem;
-    }
-    nav {
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-    nav a {
-      margin: 0 10px;
-      text-decoration: none;
-      color: #0066cc;
-    }
-    article {
-      margin-bottom: 2rem;
-    }
-    .date {
-      font-size: 0.8rem;
-      color: #555;
-    }
-    footer {
-      text-align: center;
-      font-size: 0.8rem;
-      color: #777;
-      border-top: 1px solid #ccc;
-      padding-top: 1rem;
-      margin-top: 2rem;
-    }
-    .content-link {
-      margin-bottom: 1rem;
-    }
-    .content-link a {
-      display: block;
-      color: #0066cc;
-      margin-left: 10px;
-      text-decoration: none;
-    }
-    .content-link .note {
-      font-size: 0.85rem;
-      margin-left: 10px;
-      color: #444;
-    }
-    .cat-gif {
-      display: block;
-      max-width: 100%;
-      margin: 0 auto 1rem auto;
-    }
-  </style>
-</head>
-<body>
-  <main>
-    <h1>Sina Behmanesh</h1>
-    <div style="text-align: center; font-size: 0.9rem; margin-top: -0.5rem; margin-bottom: 1rem;">
-      <a href="https://github.com/sinabehmanesh" target="_blank">GitHub</a> |
-      <a href="https://www.linkedin.com/in/sinabehmanesh" target="_blank">LinkedIn</a> |
-      <a href="https://twitter.com/cbehmanesh" target="_blank">Twitter</a> |
-      <a href="mailto:sinabehmanesh.personal@gmail.com">Email</a>
-    </div>
-    <nav>
-      <a href="#">Home</a>
-      <a href="about.html">About</a>
-    </nav>
-
-    <article>
-      <h2>Blog</h2>
-      <p class="date">May 9, 2025</p>
-      <p>Hey howdy, this is Sina, are you in technical trouble? do you need someone to build some software for you? better call sina!</p>
-      <br/>
-      <p class="date">Aug 11, 2025</p>
-      <p>I just started working on a new game, I realized that for the first game, I should pick something easy and small, so now I'm working on a low poly video game, will post updates in Social Media.</p>
-      <br/>
-      <p class="date">Dec 15, 2025</p>
-      <p>Done a lot of work with Blender and Substance3D painter. legit experience which is enough to make the first game, still debating on what the first game should be tho....</p>
-    </article>
-
-    <footer>
-      &copy; 2025 Sina Behmanesh | Hosted via <a href="https://pages.github.com" target="_blank">GitHub Pages</a>.
-    </footer>
-  </main>
-
-  
-  <aside>
-    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjlnNmxoZXR0dzYyMTEzajVhdzV4MWxocWhrN3o3bTVoNnI4d21kMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HIYW8sTRTHt1m/giphy.gif" alt="Cat gif" class="cat-gif">
-    <h3 style="margin-left: 5px;">Cool Stuff</h3>
-    <div class="content-link">
-      <a href="https://www.twitch.tv/sinastrikes" target="_blank">Twitch streams</a>
-      <div class="note">I do some Tech stuff, games and that's it.</div>
-    </div>
-    <div class="content-link">
-      <a href="https://www.learncpp.com/cpp-tutorial/how-to-design-your-first-programs/" target="_blank">How to Design your programs</a>
-      <div class="note">A basic guide to how to make software stuff, if you write code, take a look at it.</div>
-    </div>
-  
-  </aside>
-
-  <button onclick="toggleTheme()" style="position:fixed;top:10px;right:10px;padding:5px 10px;font-size:0.8rem;">Toggle Theme</button>
+  <link rel="stylesheet" href="styles.css">
   <script>
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const userTheme = localStorage.getItem('theme');
-    const body = document.body;
-
-    if (userTheme === 'light') body.classList.remove('dark');
-    else body.classList.add('dark');
-
-    function toggleTheme() {
-      body.classList.toggle('dark');
-      localStorage.setItem('theme', body.classList.contains('dark') ? 'dark' : 'light');
+    try {
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme === 'light' || savedTheme === 'dark') {
+        document.documentElement.dataset.theme = savedTheme;
+      }
+    } catch (_) {
+      // Keep the classic dark theme when storage is unavailable.
     }
   </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <div class="page-shell">
+    <header class="site-header">
+      <div>
+        <a class="site-title" href="index.html">Sina Behmanesh</a>
+        <p class="site-subtitle">Software, games, and things worth keeping on the web.</p>
+      </div>
+
+      <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="true">
+        [ light mode ]
+      </button>
+    </header>
+
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a aria-current="page" href="index.html">Home</a>
+      <span aria-hidden="true">/</span>
+      <a href="about.html">About</a>
+      <span aria-hidden="true">/</span>
+      <a href="https://github.com/sinabehmanesh" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <span aria-hidden="true">/</span>
+      <a href="https://www.linkedin.com/in/sinabehmanesh" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <span aria-hidden="true">/</span>
+      <a href="https://x.com/cbehmanesh" target="_blank" rel="noopener noreferrer">X</a>
+      <span aria-hidden="true">/</span>
+      <a href="mailto:sinabehmanesh.work@gmail.com">Email</a>
+    </nav>
+
+    <div class="site-grid">
+      <main id="main-content">
+        <section class="journal" aria-labelledby="journal-title">
+          <header class="section-heading">
+            <h1 id="journal-title">Journal</h1>
+            <p>Small updates, newest first.</p>
+          </header>
+
+          <article class="journal-entry">
+            <header>
+              <h2>Learning the art side</h2>
+              <time datetime="2025-12-15">December 15, 2025</time>
+            </header>
+            <p>
+              I have spent a lot of time with Blender and Substance 3D Painter.
+              It feels like enough practical experience to make a first game—although
+              I am still debating what that first game should be.
+            </p>
+          </article>
+
+          <article class="journal-entry">
+            <header>
+              <h2>Starting smaller</h2>
+              <time datetime="2025-08-11">August 11, 2025</time>
+            </header>
+            <p>
+              I started working on a new game. For a first project, small and achievable
+              is probably better, so I am experimenting with a low-poly game and will
+              share updates as it develops.
+            </p>
+          </article>
+
+          <article class="journal-entry">
+            <header>
+              <h2>Better call Sina</h2>
+              <time datetime="2025-05-09">May 9, 2025</time>
+            </header>
+            <p>
+              Hey, howdy. Are you in technical trouble? Do you need someone to build
+              some software? Better call Sina.
+            </p>
+          </article>
+        </section>
+      </main>
+
+      <aside class="sidebar" aria-labelledby="cool-stuff-title">
+        <img
+          class="kermit-gif"
+          src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjlnNmxoZXR0dzYyMTEzajVhdzV4MWxocWhrN3o3bTVoNnI4d21kMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HIYW8sTRTHt1m/giphy.gif"
+          alt="Kermit sitting at a desk"
+          loading="lazy"
+          referrerpolicy="no-referrer"
+        >
+
+        <section class="sidebar-section">
+          <h2 id="cool-stuff-title">Cool Stuff</h2>
+
+          <ul class="link-list">
+            <li>
+              <a href="https://www.twitch.tv/sinastrikes" target="_blank" rel="noopener noreferrer">Twitch streams</a>
+              <p>I do some tech stuff, games, and that's it.</p>
+            </li>
+            <li>
+              <a href="https://www.learncpp.com/cpp-tutorial/how-to-design-your-first-programs/" target="_blank" rel="noopener noreferrer">How to design your programs</a>
+              <p>A practical introduction to thinking through a program before writing it.</p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="sidebar-section">
+          <h2>Colophon</h2>
+          <p>Handwritten HTML and CSS. No framework, analytics, or build step.</p>
+        </section>
+      </aside>
+    </div>
+
+    <footer class="site-footer">
+      <span>&copy; <span data-current-year>2026</span> Sina Behmanesh</span>
+      <span aria-hidden="true">&middot;</span>
+      <span>Hosted on <a href="https://pages.github.com" target="_blank" rel="noopener noreferrer">GitHub Pages</a></span>
+    </footer>
+  </div>
+
+  <script src="theme.js"></script>
 </body>
 </html>

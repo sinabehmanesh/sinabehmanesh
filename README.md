@@ -1,11 +1,14 @@
-Sina Behmanesh, The Server Developer.
-===
+# sinabehmanesh.com
 
-<img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbThpYWM2NDh0aGloeHg5aDlpNjQyYXJ1c3l5ZDNwNGsweHpjbDdlaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JIX9t2j0ZTN9S/giphy.gif" width="250">
+The static source for [sinabehmanesh.com](https://www.sinabehmanesh.com/).
 
-Spotify:
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1Il659hPlscavxpq7QVPgU?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+The production website is served from the `gh-pages` branch using GitHub Pages.
+It is intentionally built with plain HTML, CSS, and a small amount of JavaScript.
 
+## Files
 
-Steam:
-<iframe src="https://gamer2810.github.io/steam-miniprofile/?accountId=76561198384393564" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
+- `index.html` — journal and links
+- `about.html` — about page
+- `styles.css` — shared responsive theme
+- `theme.js` — light/dark preference and footer year
+- `CNAME` — custom-domain configuration
